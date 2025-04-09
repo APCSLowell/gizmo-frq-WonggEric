@@ -7,7 +7,7 @@ public class Gizmo
   public String getMaker()
   {
     return maker;
-  }
+  }j
   /** Returns true if this Gizmo is electronic, and false
   * otherwise.
   */
