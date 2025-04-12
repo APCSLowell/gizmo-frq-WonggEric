@@ -30,7 +30,7 @@ public class OnlinePurchaseManager
     for(int i = 0;i<purchases.size()-1;i++){
       Gizmo gizmo1 = purchases.get(i);
       Gizmo gizmo2 = purchases.get(i+1);
-      if(gizmo1.equals(gizmos2))
+      if(gizmo1.equals(gizmo2))
         return true;
     }
     return false;
